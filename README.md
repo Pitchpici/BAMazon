@@ -6,11 +6,7 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
 - Clone repo.
 - Run command in Terminal or Gitbash 'npm install'
-- Run command depending which mode you would like to be on:
-    * Customer - 'npm run customer'
-    * Manager - 'npm run manager'
-    * Exective - 'npm run exective'
-- Run 'ctrl + c' to exit each mode
+
 
 ### What Each JavaScript Does
 
@@ -76,6 +72,7 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 - Node.js
 - Inquire NPM Package (https://www.npmjs.com/package/inquirer)
 - MYSQL NPM Package (https://www.npmjs.com/package/mysql)
+- Console Table NPM Package (https://www.npmjs.com/package/console.table)
 
 ### Prerequisites
 
