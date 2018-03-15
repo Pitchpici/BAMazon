@@ -116,8 +116,8 @@ function add2Inventory() {
 					return selectedItem;
 				}); 
 
-				console.log(selectedItem.stock_quantity);
-				console.log(answer.add, answer.number);
+				console.log("Number of items currently in stock: " + selectedItem.stock_quantity);
+				console.log("Number of items added: " + answer.number);
 
 				var updatedStock = selectedItem.stock_quantity + parseInt(answer.number);
 

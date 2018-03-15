@@ -61,7 +61,6 @@ function displayProducts() {
 				return chosenItem;
 			});
 
-			console.log("!!!" + chosenItem);
 
 			console.log("quantity in stock " + chosenItem.stock_quantity);
 
@@ -75,7 +74,7 @@ function displayProducts() {
 					var unitsRemaining = chosenItem.stock_quantity - unitsBought;
 
 					
-					console.log ("you're on the right track!!!" + unitsRemaining);
+					console.log ("Units remaining in stock: " + unitsRemaining);
 					
 					connection.query("UPDATE products SET ? WHERE ?", 
 						[	
