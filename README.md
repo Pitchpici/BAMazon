@@ -61,9 +61,9 @@ Created during Week 12 of UNH Coding Bootcamp. The goal was to create an Amazon-
 
 ## ScreenShots
 
-* Bamazon-Customer.js [Screenshot]()
+* Bamazon-Customer.js [Screenshot](https://github.com/Pitchpici/BAMazon/blob/master/images/BamazonCustomer.png)
 
-* Bamazon-Manager.js [Screenshot]()
+* Bamazon-Manager.js [Screenshot](https://github.com/Pitchpici/BAMazon/blob/master/images/BamazonManager.png)
 
 * Bamazon-Supervisor.js [Screenshot]()
 
