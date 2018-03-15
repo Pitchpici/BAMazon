@@ -110,7 +110,7 @@ function add2Inventory() {
 				var selectedItem;
 
 				results.forEach(function(elem, index, arr) {
-					if (arr[index].product_name = answer.add) {
+					if (arr[index].product_name == answer.add) {
 						selectedItem = arr[index];
 					}
 					return selectedItem;
@@ -158,7 +158,7 @@ function addProduct() {
 				message: "How much will one item cost?"
 	},
 	{
-				name: "quantity",
+				name: "extra",
 				type: "input",
 				message: "Quantity available?"
 	}]).then(function(newItem) {
@@ -168,7 +168,7 @@ function addProduct() {
 			product_name: newItem.name,
 			department_name: newItem.department,
 			price: newItem.price,
-			stock_quantity: newItem.quantity
+			stock_quantity: newItem.extra
 		
 		}, function(err) {
 			if (err) throw err;
